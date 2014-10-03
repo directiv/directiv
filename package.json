@@ -1,0 +1,23 @@
+{
+  "name": "directiv",
+  "version": "0.1.0",
+  "description": "simple, fast html compiler",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/directiv/directiv.git"
+  },
+  "author": "Cameron Bytheway <bytheway.cameron@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/directiv/directiv/issues"
+  },
+  "homepage": "https://github.com/directiv/directiv",
+  "dependencies": {
+    "directiv-core-compiler": "^0.1.0",
+    "syrinx": "^0.1.0"
+  }
+}
